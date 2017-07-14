@@ -12,7 +12,7 @@
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 
     <!--
-      TODO: Add a script tag to hold the Handlebars template.
+    DONE: Add a script tag to hold the Handlebars template.
         - Be sure to give it a meaningful id attribute.
         - Move your old template structure to here. Remember that this template
           needs to have the same structure as the old one!
@@ -20,9 +20,9 @@
         - If your object doesn't have values you need yet, you can add those properties in the model.
     -->
     <script id="labFourTemplate" type="text/x-handlebars-template">
-      <h1>{{title}}</h1>
       <article data-author="{{author}}" data-category="{{category}}">
       <div class="byline">
+        <h1>{{title}}</h1>
         By <address><a href="{{authorUrl}}">{{author}}</a></address>
         published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
       </div>
